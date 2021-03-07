@@ -5,7 +5,7 @@ DELIMITER $$
 USE `scool_protocol`$$
 CREATE DEFINER=`root`@`localhost` PROCEDURE `get_all_classes`()
 BEGIN
-	SELECT * FROM class;
+	SELECT * FROM class as c, course as co;
 END$$
 
 DELIMITER ;

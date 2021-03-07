@@ -6,7 +6,7 @@ DROP function IF EXISTS `amount_of_students_in_lesson`;
 DELIMITER $$
 USE `scool_protocol`$$
 CREATE DEFINER=`root`@`localhost` FUNCTION `amount_of_students_in_lesson`(
-	lesson_id INT
+	class_id INT
 ) RETURNS int
 BEGIN
 	DECLARE amount_students INT;
@@ -15,7 +15,7 @@ BEGIN
 	SELECT COUNT(lesson.user_iduser)
 	INTO amount_students
 	FROM lesson
-	WHERE class_idclass = lesson_id;
+	WHERE class_idclass = class_id;
 	RETURN amount_students;
 END$$
 
