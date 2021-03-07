@@ -1,0 +1,13 @@
+INSERT INTO `scool_protocol`.`school` (`idschool`, `name`) VALUES ('1', 'KEA');
+INSERT INTO `scool_protocol`.`address` (`idaddress`, `school_idschool`, `street`, `postal_code`, `country`, `number`) VALUES ('1', '1', 'Guldbergsgade', '2200', 'Denmark', '20');
+INSERT INTO `scool_protocol`.`user` (`iduser`, `school_idschool`, `first_name`, `last_name`) VALUES ('1', '1', 'Oliver', 'Dehnfjeld');
+INSERT INTO `scool_protocol`.`user` (`iduser`, `school_idschool`, `first_name`, `last_name`) VALUES ('2', '1', 'Jonas', 'Hansen');
+INSERT INTO `scool_protocol`.`user` (`iduser`, `school_idschool`, `first_name`, `last_name`) VALUES ('3', '1', 'Kim', 'Madsen');
+INSERT INTO `scool_protocol`.`user` (`iduser`, `school_idschool`, `first_name`, `last_name`) VALUES ('4', '1', 'Duktur', 'Mufti');
+INSERT INTO `scool_protocol`.`role` (`idrole`, `role`) VALUES ('1', 'ADMIN');
+INSERT INTO `scool_protocol`.`role` (`idrole`, `role`) VALUES ('2', 'STUDENT');
+INSERT INTO `scool_protocol`.`role` (`idrole`, `role`) VALUES ('3', 'TEACHER');
+INSERT INTO `scool_protocol`.`user_role` (`user_iduser`, `role_idrole`) VALUES ('1', '1');
+INSERT INTO `scool_protocol`.`user_role` (`user_iduser`, `role_idrole`) VALUES ('2', '3');
+INSERT INTO `scool_protocol`.`user_role` (`user_iduser`, `role_idrole`) VALUES ('3', '2');
+INSERT INTO `scool_protocol`.`user_role` (`user_iduser`, `role_idrole`) VALUES ('4', '3');
