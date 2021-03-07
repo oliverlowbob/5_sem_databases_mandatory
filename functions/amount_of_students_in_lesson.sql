@@ -1,3 +1,10 @@
+SET GLOBAL log_bin_trust_function_creators = 1;
+
+USE `scool_protocol`;
+DROP function IF EXISTS `amount_of_students_in_lesson`;
+
+DELIMITER $$
+USE `scool_protocol`$$
 CREATE DEFINER=`root`@`localhost` FUNCTION `amount_of_students_in_lesson`(
 	lesson_id INT
 ) RETURNS int
@@ -10,4 +17,7 @@ BEGIN
 	FROM lesson
 	WHERE class_idclass = lesson_id;
 	RETURN amount_students;
-END
+END$$
+
+DELIMITER ;
+
