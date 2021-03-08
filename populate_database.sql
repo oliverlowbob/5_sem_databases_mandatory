@@ -25,4 +25,4 @@ INSERT INTO `scool_protocol`.`lesson` (`user_iduser`, `class_idclass`) VALUES ('
 INSERT INTO `scool_protocol`.`lesson` (`user_iduser`, `class_idclass`) VALUES ('3', '1');
 INSERT INTO `scool_protocol`.`lesson` (`user_iduser`, `class_idclass`) VALUES ('4', '1');
 
-INSERT INTO `scool_protocol`.`attendance_key` (`idattendance_key`, `valid`, `lesson_user_iduser`, `lesson_class_idclass`) VALUES ('1', '1', '2', '1');
+INSERT INTO `scool_protocol`.`attendance_key` (`idattendance_key`, `lesson_user_iduser`, `lesson_class_idclass`) VALUES ('"1"', '2', '1');
