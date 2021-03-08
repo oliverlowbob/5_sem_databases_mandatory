@@ -12,12 +12,20 @@ BEGIN
 	DECLARE amount_students INT;
     SET amount_students = 0;
     
-	SELECT COUNT(lesson.user_iduser)
+	SELECT count(l.user_iduser)
 	INTO amount_students
-	FROM lesson
-	WHERE class_idclass = class_id;
+	FROM lesson AS l, role as r, user_role as ur
+	WHERE l.class_idclass = class_id
+    AND ur.user_iduser = l.user_iduser
+	AND r.idrole = 2;
 	RETURN amount_students;
 END$$
 
 DELIMITER ;
+
+
+
+
+
+
 

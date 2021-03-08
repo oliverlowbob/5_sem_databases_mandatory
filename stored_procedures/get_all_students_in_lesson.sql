@@ -13,7 +13,8 @@ BEGIN
     AND c.idclass = class_id
     AND ur.user_iduser = u.iduser
     AND ur.role_idrole = r.idrole
-    AND c.course_idcourse = co.idcourse;
+    AND c.course_idcourse = co.idcourse
+    AND r.idrole = 2;
 END$$
 
 DELIMITER ;
