@@ -1,3 +1,8 @@
+USE `scool_protocol`;
+DROP procedure IF EXISTS `get_student_attendance`;
+
+DELIMITER $$
+USE `scool_protocol`$$
 CREATE DEFINER=`root`@`localhost` PROCEDURE `get_student_attendance`(user_id INT)
 BEGIN
     SELECT
@@ -8,4 +13,7 @@ BEGIN
     
 	FROM user AS u, lesson as l
     WHERE u.iduser = user_id and l.user_iduser = user_id;
-END
+END$$
+
+DELIMITER ;
+

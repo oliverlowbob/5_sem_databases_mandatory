@@ -1,3 +1,8 @@
+USE `scool_protocol`;
+DROP function IF EXISTS `present_student`;
+
+DELIMITER $$
+USE `scool_protocol`$$
 CREATE DEFINER=`root`@`localhost` FUNCTION `present_student`(user_id INT) RETURNS int(11)
 BEGIN
 	DECLARE present_classes_total INT;
@@ -9,4 +14,7 @@ BEGIN
 	AND l.present = 1;
 
 RETURN present_classes_total;
-END
+END$$
+
+DELIMITER ;
+
