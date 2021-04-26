@@ -21,7 +21,7 @@ INSERT INTO `scool_protocol`.`user_role` (`user_iduser`, `role_idrole`) VALUES (
 INSERT INTO `scool_protocol`.`course` (`idcourse`, `name`) VALUES ('1', 'Software Development');
 INSERT INTO `scool_protocol`.`course` (`idcourse`, `name`) VALUES ('2', 'Design');
 
-INSERT INTO `scool_protocol`.`class` (`idclass`, `course_idcourse`, `start`, `end`) VALUES ('1', '1', '2021-10-10', '2021-10-10');
+INSERT INTO `scool_protocol`.`class` (`idclass`, `course_idcourse`, `start`, `end`, `number_of_class`) VALUES ('1', '1', '2021-10-10', '2021-10-10', '1');
 
 INSERT INTO `scool_protocol`.`lesson` (`user_iduser`, `class_idclass`) VALUES ('2', '1');
 INSERT INTO `scool_protocol`.`lesson` (`user_iduser`, `class_idclass`) VALUES ('3', '1');
