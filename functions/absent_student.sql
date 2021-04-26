@@ -1,10 +1,4 @@
 SET GLOBAL log_bin_trust_function_creators = 1;
-<<<<<<< HEAD
-=======
-
-
-
->>>>>>> 7db8f3bcd1671df409d1c53334596af2c0ab0ae6
 USE `scool_protocol`;
 DROP function IF EXISTS `absent_student`;
 
