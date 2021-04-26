@@ -1,3 +1,8 @@
+USE `scool_protocol`;
+DROP procedure IF EXISTS `get_student_pressency_in_class`;
+
+DELIMITER $$
+USE `scool_protocol`$$
 CREATE DEFINER=`root`@`localhost` PROCEDURE `get_student_pressency_in_class`(
 	class_id INT
 )
@@ -18,4 +23,7 @@ BEGIN
 		ON class.course_idcourse = course.idcourse
 	WHERE user_role.role_idrole = 2
 	AND class_idclass = class_id;
-END
+END$$
+
+DELIMITER ;
+
