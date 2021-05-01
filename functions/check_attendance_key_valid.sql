@@ -4,7 +4,7 @@ DROP function IF EXISTS `check_attendance_key_valid`;
 DELIMITER $$
 USE `scool_protocol`$$
 CREATE DEFINER=`root`@`localhost` FUNCTION `check_attendance_key_valid`(
-	attendance_key_id INT
+	attendance_key_id VARCHAR(255)
 ) RETURNS int
 BEGIN
 	DECLARE valid INT;
