@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "$oid": "60a7c26e0ede482c30926211"
+  },
+  "name": "KEA",
+  "address": [
+    {
+      "street": "Guldbergsgade",
+      "postal_code": 2200,
+      "country": "Denmark",
+      "number": 20
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60a959d8314d360645a2c030"
+  },
+  "name": "Test School",
+  "address": [
+    {
+      "street": "TestStreet",
+      "postal_code": 1337,
+      "country": "Uruguay",
+      "number": 110
+    }
+  ]
+}]

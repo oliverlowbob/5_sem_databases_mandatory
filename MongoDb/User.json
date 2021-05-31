@@ -1,0 +1,56 @@
+[{
+  "_id": {
+    "$oid": "60a7c15f0ede482c30926209"
+  },
+  "first_name": "Oliver",
+  "last_name": "Dehnfjeld",
+  "email": "test1",
+  "password": "test",
+  "active": true,
+  "role": "ADMIN",
+  "school_id": "60a7c26e0ede482c30926211"
+},{
+  "_id": {
+    "$oid": "60a7c15f0ede482c3092620a"
+  },
+  "first_name": "Jonas",
+  "last_name": "Hansen",
+  "email": "test2",
+  "password": "test",
+  "active": true,
+  "role": "TEACHER",
+  "school_id": "60a7c26e0ede482c30926211"
+},{
+  "_id": {
+    "$oid": "60a7c15f0ede482c3092620b"
+  },
+  "first_name": "Kim",
+  "last_name": "Madsen",
+  "email": "test3",
+  "password": "test",
+  "active": true,
+  "role": "STUDENT",
+  "school_id": "60a7c26e0ede482c30926211"
+},{
+  "_id": {
+    "$oid": "60a7c15f0ede482c3092620c"
+  },
+  "first_name": "Duktur",
+  "last_name": "Mufti",
+  "email": "test4",
+  "password": "test",
+  "active": true,
+  "role": "TEACHER",
+  "school_id": "60a7c26e0ede482c30926211"
+},{
+  "_id": {
+    "$oid": "60a7c15f0ede482c3092620d"
+  },
+  "first_name": "Tomas",
+  "last_name": "Kongen",
+  "email": "test5",
+  "password": "test",
+  "active": true,
+  "role": "STUDENT",
+  "school_id": "60a7c26e0ede482c30926211"
+}]

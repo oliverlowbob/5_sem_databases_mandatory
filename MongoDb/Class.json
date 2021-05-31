@@ -1,0 +1,125 @@
+[{
+  "_id": {
+    "$oid": "60a7c53e0ede482c30926215"
+  },
+  "start": {
+    "$date": "2021-10-09T22:00:00Z"
+  },
+  "end": {
+    "$date": "2021-10-09T22:00:00Z"
+  },
+  "number_of_class": 1,
+  "course_id": "60a7c5160ede482c30926213",
+  "users": [
+    {
+      "_id": {
+        "$oid": "60a979b29adbc23343466156"
+      },
+      "user": {
+        "_id": {
+          "$oid": "60a7c15f0ede482c30926209"
+        },
+        "first_name": "Mr",
+        "last_name": "Dabbish",
+        "email": "hr.svin@gmail.com"
+      },
+      "attendance_key": "testkey",
+      "valid_until": {
+        "$date": "2021-10-09T22:00:00Z"
+      },
+      "present": false
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60b0eb91e71651e427a421db"
+  },
+  "start": {
+    "$date": "2021-05-28T12:55:12.692Z"
+  },
+  "end": {
+    "$date": "2021-05-28T12:55:12.692Z"
+  },
+  "number_of_class": 1,
+  "course_id": "60a7c5160ede482c30926213",
+  "users": [
+    {
+      "user": {
+        "first_name": "Mads",
+        "last_name": "Makker",
+        "email": "test@test.dk",
+        "password": null,
+        "active": null,
+        "role": null,
+        "school_id": null
+      },
+      "attendance_key": "0042ba5ff",
+      "valid_until": {
+        "$date": "2021-05-28T13:19:37.471Z"
+      },
+      "present": false
+    },
+    {
+      "user": {
+        "first_name": "Dennis",
+        "last_name": "Madsen",
+        "email": "test@test.dk",
+        "password": null,
+        "active": null,
+        "role": null,
+        "school_id": null
+      },
+      "attendance_key": "8031e3211",
+      "valid_until": {
+        "$date": "2021-05-28T13:19:37.471Z"
+      },
+      "present": false
+    },
+    {
+      "user": {
+        "first_name": "Klasse",
+        "last_name": "Makker",
+        "email": "test@test.dk",
+        "password": null,
+        "active": null,
+        "role": null,
+        "school_id": null
+      },
+      "attendance_key": "006ab82f0",
+      "valid_until": {
+        "$date": "2021-05-28T13:19:37.471Z"
+      },
+      "present": false
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60b228c4930d97a371fb9e09"
+  },
+  "start": {
+    "$date": "2021-05-29T11:41:46.613Z"
+  },
+  "end": {
+    "$date": "2021-05-29T11:41:46.613Z"
+  },
+  "number_of_class": 123,
+  "course_id": "phonyId",
+  "users": [
+    {
+      "user": {
+        "first_name": "Kjeld",
+        "last_name": "KANONFYR",
+        "email": "kanokurt@sejlermail.dk",
+        "password": "kurtspassword",
+        "active": true,
+        "role": "STUDENT",
+        "school_id": "phonyId"
+      },
+      "attendance_key": "2ecbef959",
+      "valid_until": {
+        "$date": "2021-05-29T11:53:00.542Z"
+      },
+      "present": true
+    }
+  ]
+}]
